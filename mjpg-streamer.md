@@ -232,10 +232,18 @@ ioctl: VIDIOC_ENUM_FMT
 
 (この設定は既に`mjpg_streamer@.service`に書き込んであります｡)
 
-## 起動 & 自動起動化
+### 起動 & 自動起動化
 
 以下を実行します｡これで､`Raspberry Pi`が起動すると自動的に`mjpg-streamer`が実行されます｡`@`の後ろは上で調べたデバイスファイルの`/dev/`を取り除いたものを指定します｡
 
 ```bash
 sudo systemctl --now enable mjpg_streamer@video0
 ```
+
+## 動作確認
+
+特に設定を変更していない場合､`mjpg-streamer`のデフォルトポートは`8080`です｡
+
+Webブラウザで､`raspberrypi:8080`もしくは`Raspberry PiのIPアドレス:8080`にアクセスし､正常に動作していることを確認します｡
+
+![mjpg-streamer-www](images/mjpg-streamer/mjpg-streamer-www.png)
