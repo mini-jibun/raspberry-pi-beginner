@@ -55,19 +55,21 @@
 ユーザ名は好みのものを、パスワードは極力使い回さず強固なものを設定しておくと良いでしょう。
 
 `Wi-Fiを設定する`は任意ですが、本プロジェクトでは最終に無線接続を行うため、有効にしておきます。お使いのSSIDとパスワードを入力します。
+
 ![raspberry-pi-imager-config-modal_2](images/imager/raspberry-pi-imager-config-modal_2.png)
 
 `wifiを使う国`を`JP`にしておきます。国によって電波の法規制が異なります。
 また、`ロケール`は`Asia/Tokyo`、キーボードレイアウトは普段お使いのものを選択します。日本語配列であれば`jp`を選択します。
+
 ![raspberry-pi-imager-config-modal_3](images/imager/raspberry-pi-imager-config-modal_3.png)
 
 その他の設定項目です。`終わったときにメディアを取り外す`はWindowsでいう安全な取り外しと同様です。完了後即座にSDカードを抜くことが出来ます。
 
 `テレメトリーを有効化する`は、Raspberry Pi Foundationが情報収集することを許可する設定です。[rpi-imager-stats.raspberrypi.com](https://rpi-imager-stats.raspberrypi.com/)に反映されます。
+
 ![raspberry-pi-imager-config-modal_4](images/imager/raspberry-pi-imager-config-modal_4.png)
 
 ここでようやく保存して、もとの画面に戻ります。
-
 
 #### 書き込む
 
