@@ -9,7 +9,7 @@
 `Raspberry Pi`にsshでログインし､以下のコマンドを実行します｡
 
 ```bash
-sudo apt install build-essential cmake libjpeg62-turbo-dev
+sudo apt install build-essential cmake libjpeg62-turbo-dev git
 ```
 
 ## ソースコードの入手
