@@ -6,3 +6,4 @@
 
 1. [Raspberry Pi Imagerの使い方](./imager.md)
 2. [Raspberry Pi OSの基本的な設定](./basis.md)
+3. [mjpg-streamerを動かす](./mjpg-streamer.md)
