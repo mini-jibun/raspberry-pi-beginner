@@ -6,10 +6,12 @@
 
 mDNSが正常に動作している環境であれば、以下で接続が可能です。
 あるホストに初めて接続する場合、セキュリティ警告が必ず出ます。続行をクリックします。
-![teraterm_connection_config](images/basis/ssh/teraterm_connection_config.png)
+
+^![teraterm_connection_config](images/basis/ssh/teraterm_connection_config.png)
 
 ユーザ名とパスワードが求められますので、`Raspberry Pi Imager`で設定したユーザ名とパスワードでログインします。
-![teraterm_conntected](images/basis/ssh/teraterm_connected.png)
+
+^![teraterm_conntected](images/basis/ssh/teraterm_connected.png)
 
 以降、`TeraTerm`に入力する内容のみを記載します。
 
