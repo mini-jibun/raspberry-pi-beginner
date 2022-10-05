@@ -26,12 +26,8 @@ git clone https://github.com/mini-jibun/mjpg-streamer
 
 ```bash
 cd mjpg-streamer/mjpg-streamer-experimental
-make -j$(nproc)
+make
 ```
-
-`$()`は､コマンドの標準出力を文字列として展開する役割があり､`nproc`コマンドは､CPUのスレッド数(コア数)を表示するコマンドです｡
-
-`make`に渡している`-j`オプションは､並列実行コマンド数を指定します｡すなわち､`make -j$(nproc)`は`make -j4`に展開され､CPUリソースを最大限活用しコンパイルします｡
 
 ## インストール
 
